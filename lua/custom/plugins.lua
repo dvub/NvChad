@@ -99,6 +99,12 @@ local plugins = {
     end,
     lazy = false,
   },
+  {
+    "ThePrimeagen/harpoon",
+    config = function()
+      require("harpoon").setup()
+    end,
+  },
 }
 
 return plugins
