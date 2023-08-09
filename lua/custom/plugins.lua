@@ -105,6 +105,13 @@ local plugins = {
       require("harpoon").setup()
     end,
   },
+  {
+    "andweeb/presence.nvim",
+    config = function()
+      require("presence").setup()
+    end,
+    lazy = false,
+  },
 }
 
 return plugins
